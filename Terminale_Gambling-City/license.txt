@@ -1,0 +1,7 @@
+Nom du Projet : Gambling city
+Auteurs : SOIDEZ Thomas, PIERQUIN Raphaël, GUILLON Gabriel
+Date : 27-03-2025
+Ce projet est sous licence GPL v3+. Vous êtes libre de l'utiliser, de le modifier et de le distribuer,sous réserve que les modifications soient également partagées sous la même licence.
+Pour plus de détails, veuillez consulter le texte complet de la licence à l'adresse suivante :
+https://www.gnu.org/licenses/gpl-3.0.html
+Pour toute question concernant la licence, veuillez contacter les auteurs.
