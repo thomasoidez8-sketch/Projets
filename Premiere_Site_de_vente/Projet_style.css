@@ -1,0 +1,86 @@
+@font-face
+{font-family: "Vampire Wars";
+src : url('Vampire_Wars.ttf')}
+body{background-color: rgb(4, 17, 54);}
+
+
+.En-tête{
+	width: 100%;height: 625px;
+	background-image: url(ciel.png);background-repeat: no-repeat; background-size: cover;
+	display: flex;flex-direction: column;justify-content: center;align-content: center;align-items: center;}
+.Présentation{
+	width: 45%;height: 90%;
+	background: rgba(80, 214, 247, .5);border-style: double;border-color: white;
+	display: flex;flex-direction: column;justify-content: center;flex-wrap: nowrap;
+	align-items: center;}
+.bandeau{
+	width: 100%;height: 75px;
+	background-color: rgb(68, 14, 157);border-style: solid;border-color: purple;border-radius: 10px 10px 50px 50px;box-shadow: 2px 4px 6px rgba(250, 250, 250);
+	display: flex;flex-direction: row;justify-content: space-around;align-items: center;}
+.Zone_infos{
+	width: 75%;height: 50%;margin-left: 12.5%;margin-top: 8%;margin-bottom: 5%;
+	background-color: rgb(220, 220, 220);
+	border-radius: 10px;border-color: grey;border: outset;	
+}
+.hall_of_fames{
+	margin-left: 10%;width: 80%;
+	background-color: rgba(230, 0, 0,0.7);
+	border-radius: 15px;border: ridge;border-color: rgb(217, 16, 16);border-width: 5px;
+	display: flex;justify-content: space-around;flex-direction: row;align-items: center;
+}
+.membre{
+	margin: 1%;
+	font-family: "Vampire Wars";color: gold;font-size: 40px;text-shadow: 2px 2px 2px black;
+	display: flex;flex-direction: column;align-items: center;
+}
+.download{
+	width: 50%;height: 50%;margin-left: 25%;margin-top: 5%;margin-bottom: 3%;
+	background-color: rgba(11, 8, 191, 0.5);
+	border: outset;border-radius: 10px;border-color: skyblue;
+	display: flex;flex-direction: column;align-items: center;
+}
+
+.Titre1{ font-size: 30px ;width: 100%;font-family: "Vampire Wars";color: white;}
+.Titre2{ font-size: 30px ;width: 100%;font-family: "Vampire Wars";color: white;}
+.Logo{display: flex;justify-content: center;}
+.title_infos{font-family: "Vampire Wars";color: skyblue; font-size: 75px; text-shadow: 5px 5px 2px purple;margin-top: 2%; display: flex;justify-content: center}
+.image{width: 250px; height: 250px;float: right;margin-top: 10px;border: solid;border-color: yellow;border-radius: 5px}
+.mignon{float: left; width: 25%;margin-top: 2%;margin-left: 5%}
+
+
+.Bouton_repos{
+	width: 20%;height: 90%;
+	background-color: rgb(179, 16, 211);
+	font-size: 25px;font-family: "Vampire Wars"; color: white; text-shadow: 2px 2px 2px black;
+    border-radius: 10px;	
+}
+.Bouton_activé{
+	width: 20%;height: 90%;
+	background-color: rgb(137, 13, 161);
+	font-size: 25px;font-family: "Vampire Wars"; color: grey; text-shadow: 2px 2px 2px black;
+    border-radius: 10px;
+}
+
+.Article{
+	width: 20%; height:400px;margin: 10.5%;margin-top: 1%;margin-bottom: 1%;
+	background-color:  rgba(11, 8, 191, 0.5);
+	font-size: 25px;font-family: "Britannic";color:#97DCFA;
+	border-color: skyblue; border-radius: 10px;
+}
+.Article_activé{
+	width: 20%; height:400px;margin: 10.5%;margin-top: 1%;margin-bottom: 1%;
+	background-color:  rgba(11, 8, 191, 0.1);
+	font-size: 25px;font-family: "Britannic";color:grey;
+	border-color: skyblue; border-radius: 10px;
+}
+
+.adresse{width: 50%}
+
+form{margin-bottom: 1%}
+h2{color: purple;font-family: "Britannic";font-size: 30px}
+.p1{color: #97DCFA;font-family: "Tahoma";font-size: 20px}
+.p_guide{color: #97DCFA;font-family: "Tahoma";font-size: 17px}
+li{color: #97DCFA;font-family: "Tahoma";font-size: 18px}
+from{color: #97DCFA;font-family: "Tahoma";font-size: 18px}
+.a{color:#7E0DA0 ;font-family: "Britannic"; font-size: 40px}
+.a_activé{color:skyblue ;font-family: "Britannic"; font-size: 40px}
